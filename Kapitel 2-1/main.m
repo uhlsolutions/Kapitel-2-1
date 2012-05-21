@@ -12,6 +12,14 @@
 
 int main(int argc, char *argv[])
 {
+    NSLog (@"Hallo!!!");
+    
+    int sdfdsf = 55;
+    
+    
+    NSLog (@"Hallo!!! %i",sdfdsf);
+    
+    
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([dsfdfsAppDelegate class]));
     }
