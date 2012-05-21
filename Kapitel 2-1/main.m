@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 {
     NSLog (@"Hallo!!!");
     
-    int sdfdsf = 55;
+    int sdfdsf = 50;
     
     
     NSLog (@"Hallo!!! %i",sdfdsf);
