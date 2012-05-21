@@ -35,17 +35,17 @@
 		D807BA09156A59B700CAE785 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D807BA0B156A59B700CAE785 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D807BA0D156A59B700CAE785 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D807BA11156A59B700CAE785 /* Kapitel 2-1-Info.plist */ = {isa = PBXFileReference; path = "Kapitel 2-1-Info.plist"; sourceTree = "<group>"; };
+		D807BA11156A59B700CAE785 /* Kapitel 2-1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kapitel 2-1-Info.plist"; sourceTree = "<group>"; };
 		D807BA13156A59B700CAE785 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D807BA15156A59B700CAE785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D807BA17156A59B700CAE785 /* Kapitel 2-1-Prefix.pch */ = {isa = PBXFileReference; path = "Kapitel 2-1-Prefix.pch"; sourceTree = "<group>"; };
-		D807BA18156A59B700CAE785 /* dsfdfsAppDelegate.h */ = {isa = PBXFileReference; path = dsfdfsAppDelegate.h; sourceTree = "<group>"; };
+		D807BA17156A59B700CAE785 /* Kapitel 2-1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kapitel 2-1-Prefix.pch"; sourceTree = "<group>"; };
+		D807BA18156A59B700CAE785 /* dsfdfsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dsfdfsAppDelegate.h; sourceTree = "<group>"; };
 		D807BA19156A59B700CAE785 /* dsfdfsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dsfdfsAppDelegate.m; sourceTree = "<group>"; };
 		D807BA20156A59B700CAE785 /* Kapitel 2-1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kapitel 2-1Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D807BA21156A59B700CAE785 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D807BA29156A59B700CAE785 /* Kapitel 2-1Tests-Info.plist */ = {isa = PBXFileReference; path = "Kapitel 2-1Tests-Info.plist"; sourceTree = "<group>"; };
+		D807BA29156A59B700CAE785 /* Kapitel 2-1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kapitel 2-1Tests-Info.plist"; sourceTree = "<group>"; };
 		D807BA2B156A59B700CAE785 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D807BA2D156A59B700CAE785 /* Kapitel_2_1Tests.h */ = {isa = PBXFileReference; path = Kapitel_2_1Tests.h; sourceTree = "<group>"; };
+		D807BA2D156A59B700CAE785 /* Kapitel_2_1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kapitel_2_1Tests.h; sourceTree = "<group>"; };
 		D807BA2E156A59B700CAE785 /* Kapitel_2_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kapitel_2_1Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -346,6 +346,7 @@
 				GCC_PREFIX_HEADER = "Kapitel 2-1/Kapitel 2-1-Prefix.pch";
 				INFOPLIST_FILE = "Kapitel 2-1/Kapitel 2-1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -357,6 +358,7 @@
 				GCC_PREFIX_HEADER = "Kapitel 2-1/Kapitel 2-1-Prefix.pch";
 				INFOPLIST_FILE = "Kapitel 2-1/Kapitel 2-1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
