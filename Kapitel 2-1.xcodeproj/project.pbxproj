@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D807BA0A156A59B700CAE785 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D807BA09156A59B700CAE785 /* UIKit.framework */; };
+		D807BA0C156A59B700CAE785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D807BA0B156A59B700CAE785 /* Foundation.framework */; };
+		D807BA0E156A59B700CAE785 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D807BA0D156A59B700CAE785 /* CoreGraphics.framework */; };
+		D807BA14156A59B700CAE785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D807BA12156A59B700CAE785 /* InfoPlist.strings */; };
+		D807BA16156A59B700CAE785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D807BA15156A59B700CAE785 /* main.m */; };
+		D807BA1A156A59B700CAE785 /* dsfdfsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D807BA19156A59B700CAE785 /* dsfdfsAppDelegate.m */; };
+		D807BA22156A59B700CAE785 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D807BA21156A59B700CAE785 /* SenTestingKit.framework */; };
+		D807BA23156A59B700CAE785 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D807BA09156A59B700CAE785 /* UIKit.framework */; };
+		D807BA24156A59B700CAE785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D807BA0B156A59B700CAE785 /* Foundation.framework */; };
+		D807BA2C156A59B700CAE785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D807BA2A156A59B700CAE785 /* InfoPlist.strings */; };
+		D807BA2F156A59B700CAE785 /* Kapitel_2_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D807BA2E156A59B700CAE785 /* Kapitel_2_1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D807BA25156A59B700CAE785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D807B9FC156A59B700CAE785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D807BA04156A59B700CAE785;
+			remoteInfo = "Kapitel 2-1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D807BA05156A59B700CAE785 /* Kapitel 2-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kapitel 2-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D807BA09156A59B700CAE785 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D807BA0B156A59B700CAE785 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D807BA0D156A59B700CAE785 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D807BA11156A59B700CAE785 /* Kapitel 2-1-Info.plist */ = {isa = PBXFileReference; path = "Kapitel 2-1-Info.plist"; sourceTree = "<group>"; };
+		D807BA13156A59B700CAE785 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D807BA15156A59B700CAE785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D807BA17156A59B700CAE785 /* Kapitel 2-1-Prefix.pch */ = {isa = PBXFileReference; path = "Kapitel 2-1-Prefix.pch"; sourceTree = "<group>"; };
+		D807BA18156A59B700CAE785 /* dsfdfsAppDelegate.h */ = {isa = PBXFileReference; path = dsfdfsAppDelegate.h; sourceTree = "<group>"; };
+		D807BA19156A59B700CAE785 /* dsfdfsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dsfdfsAppDelegate.m; sourceTree = "<group>"; };
+		D807BA20156A59B700CAE785 /* Kapitel 2-1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kapitel 2-1Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D807BA21156A59B700CAE785 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D807BA29156A59B700CAE785 /* Kapitel 2-1Tests-Info.plist */ = {isa = PBXFileReference; path = "Kapitel 2-1Tests-Info.plist"; sourceTree = "<group>"; };
+		D807BA2B156A59B700CAE785 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D807BA2D156A59B700CAE785 /* Kapitel_2_1Tests.h */ = {isa = PBXFileReference; path = Kapitel_2_1Tests.h; sourceTree = "<group>"; };
+		D807BA2E156A59B700CAE785 /* Kapitel_2_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kapitel_2_1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D807BA02156A59B700CAE785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D807BA0A156A59B700CAE785 /* UIKit.framework in Frameworks */,
+				D807BA0C156A59B700CAE785 /* Foundation.framework in Frameworks */,
+				D807BA0E156A59B700CAE785 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D807BA1C156A59B700CAE785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D807BA22156A59B700CAE785 /* SenTestingKit.framework in Frameworks */,
+				D807BA23156A59B700CAE785 /* UIKit.framework in Frameworks */,
+				D807BA24156A59B700CAE785 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D807B9FA156A59B700CAE785 = {
+			isa = PBXGroup;
+			children = (
+				D807BA0F156A59B700CAE785 /* Kapitel 2-1 */,
+				D807BA27156A59B700CAE785 /* Kapitel 2-1Tests */,
+				D807BA08156A59B700CAE785 /* Frameworks */,
+				D807BA06156A59B700CAE785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D807BA06156A59B700CAE785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D807BA05156A59B700CAE785 /* Kapitel 2-1.app */,
+				D807BA20156A59B700CAE785 /* Kapitel 2-1Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D807BA08156A59B700CAE785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D807BA09156A59B700CAE785 /* UIKit.framework */,
+				D807BA0B156A59B700CAE785 /* Foundation.framework */,
+				D807BA0D156A59B700CAE785 /* CoreGraphics.framework */,
+				D807BA21156A59B700CAE785 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D807BA0F156A59B700CAE785 /* Kapitel 2-1 */ = {
+			isa = PBXGroup;
+			children = (
+				D807BA18156A59B700CAE785 /* dsfdfsAppDelegate.h */,
+				D807BA19156A59B700CAE785 /* dsfdfsAppDelegate.m */,
+				D807BA10156A59B700CAE785 /* Supporting Files */,
+			);
+			path = "Kapitel 2-1";
+			sourceTree = "<group>";
+		};
+		D807BA10156A59B700CAE785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D807BA11156A59B700CAE785 /* Kapitel 2-1-Info.plist */,
+				D807BA12156A59B700CAE785 /* InfoPlist.strings */,
+				D807BA15156A59B700CAE785 /* main.m */,
+				D807BA17156A59B700CAE785 /* Kapitel 2-1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D807BA27156A59B700CAE785 /* Kapitel 2-1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D807BA2D156A59B700CAE785 /* Kapitel_2_1Tests.h */,
+				D807BA2E156A59B700CAE785 /* Kapitel_2_1Tests.m */,
+				D807BA28156A59B700CAE785 /* Supporting Files */,
+			);
+			path = "Kapitel 2-1Tests";
+			sourceTree = "<group>";
+		};
+		D807BA28156A59B700CAE785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D807BA29156A59B700CAE785 /* Kapitel 2-1Tests-Info.plist */,
+				D807BA2A156A59B700CAE785 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D807BA04156A59B700CAE785 /* Kapitel 2-1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D807BA32156A59B700CAE785 /* Build configuration list for PBXNativeTarget "Kapitel 2-1" */;
+			buildPhases = (
+				D807BA01156A59B700CAE785 /* Sources */,
+				D807BA02156A59B700CAE785 /* Frameworks */,
+				D807BA03156A59B700CAE785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kapitel 2-1";
+			productName = "Kapitel 2-1";
+			productReference = D807BA05156A59B700CAE785 /* Kapitel 2-1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D807BA1F156A59B700CAE785 /* Kapitel 2-1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D807BA35156A59B700CAE785 /* Build configuration list for PBXNativeTarget "Kapitel 2-1Tests" */;
+			buildPhases = (
+				D807BA1B156A59B700CAE785 /* Sources */,
+				D807BA1C156A59B700CAE785 /* Frameworks */,
+				D807BA1D156A59B700CAE785 /* Resources */,
+				D807BA1E156A59B700CAE785 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D807BA26156A59B700CAE785 /* PBXTargetDependency */,
+			);
+			name = "Kapitel 2-1Tests";
+			productName = "Kapitel 2-1Tests";
+			productReference = D807BA20156A59B700CAE785 /* Kapitel 2-1Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D807B9FC156A59B700CAE785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Uhlsolutions;
+			};
+			buildConfigurationList = D807B9FF156A59B700CAE785 /* Build configuration list for PBXProject "Kapitel 2-1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D807B9FA156A59B700CAE785;
+			productRefGroup = D807BA06156A59B700CAE785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D807BA04156A59B700CAE785 /* Kapitel 2-1 */,
+				D807BA1F156A59B700CAE785 /* Kapitel 2-1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D807BA03156A59B700CAE785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D807BA14156A59B700CAE785 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D807BA1D156A59B700CAE785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D807BA2C156A59B700CAE785 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D807BA1E156A59B700CAE785 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D807BA01156A59B700CAE785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D807BA16156A59B700CAE785 /* main.m in Sources */,
+				D807BA1A156A59B700CAE785 /* dsfdfsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D807BA1B156A59B700CAE785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D807BA2F156A59B700CAE785 /* Kapitel_2_1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D807BA26156A59B700CAE785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D807BA04156A59B700CAE785 /* Kapitel 2-1 */;
+			targetProxy = D807BA25156A59B700CAE785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D807BA12156A59B700CAE785 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D807BA13156A59B700CAE785 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D807BA2A156A59B700CAE785 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D807BA2B156A59B700CAE785 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D807BA30156A59B700CAE785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D807BA31156A59B700CAE785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D807BA33156A59B700CAE785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kapitel 2-1/Kapitel 2-1-Prefix.pch";
+				INFOPLIST_FILE = "Kapitel 2-1/Kapitel 2-1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D807BA34156A59B700CAE785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kapitel 2-1/Kapitel 2-1-Prefix.pch";
+				INFOPLIST_FILE = "Kapitel 2-1/Kapitel 2-1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D807BA36156A59B700CAE785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kapitel 2-1.app/Kapitel 2-1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kapitel 2-1/Kapitel 2-1-Prefix.pch";
+				INFOPLIST_FILE = "Kapitel 2-1Tests/Kapitel 2-1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D807BA37156A59B700CAE785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Kapitel 2-1.app/Kapitel 2-1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Kapitel 2-1/Kapitel 2-1-Prefix.pch";
+				INFOPLIST_FILE = "Kapitel 2-1Tests/Kapitel 2-1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D807B9FF156A59B700CAE785 /* Build configuration list for PBXProject "Kapitel 2-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D807BA30156A59B700CAE785 /* Debug */,
+				D807BA31156A59B700CAE785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D807BA32156A59B700CAE785 /* Build configuration list for PBXNativeTarget "Kapitel 2-1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D807BA33156A59B700CAE785 /* Debug */,
+				D807BA34156A59B700CAE785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D807BA35156A59B700CAE785 /* Build configuration list for PBXNativeTarget "Kapitel 2-1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D807BA36156A59B700CAE785 /* Debug */,
+				D807BA37156A59B700CAE785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D807B9FC156A59B700CAE785 /* Project object */;
+}
